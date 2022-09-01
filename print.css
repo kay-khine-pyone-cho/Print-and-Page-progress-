@@ -1,0 +1,13 @@
+.print-btn {
+  display: none;
+}
+.printbreak {
+  page-break-after: always;
+}
+.header {
+  position: static;
+}
+@page {
+  margin: 0;
+  size: legal;
+}

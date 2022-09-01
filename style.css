@@ -1,0 +1,56 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+  font-size: 20px;
+  line-height: 50px;
+}
+header {
+  width: 100%;
+  background-color: #f1f1f1;
+  text-align: center;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.progress {
+  width: 100%;
+  height: 5px;
+  background-color: #bbb;
+}
+.progress-bar {
+  width: 0%;
+  height: 100%;
+  background-color: forestgreen;
+}
+.content {
+  width: 80%;
+  padding: 50px 0;
+  margin: 50px auto;
+}
+/* @media print {
+  * {
+    visibility: hidden;
+  }
+  .printarea * {
+    visibility: visible;
+  }
+  .header {
+    position: static;
+  }
+  .printbreak {
+    page-break-before: always;
+ page-break-after: always;
+  }
+}
+@page {
+  margin: 0; */
+
+/* size: portrait; */
+/* size: landscape; */
+/* size: auto; */
+/* size: A4 landscape;
+/* size: 4in 6in; */
+/* size: legal;
+} */
